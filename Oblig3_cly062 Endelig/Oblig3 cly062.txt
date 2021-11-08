@@ -1,0 +1,17 @@
+cly062 Oblig 3 INFO132
+
+5a) 	Det ideelle i javakode er at det er høy kohesjon. Da har hver klasse en hovedfunksjon og hver metode har sin hovedfunksjon.
+	I koden som i utgangspunktet var i Client-klassen hadde to hovedoppgaver. Den tok seg av både input og hvordan klienten virker.
+	Ved å ta de elementene i koden som omhandler input og setter dette inn i en UserInput-klasse,
+	så øker det kohesjoenen til Client-klassen da den har bare ett ansvarsområde.
+
+5b)	Kobling i koden vil si hvor mye Klassene kommuniserer seg mellom. Idealet er en løs kbling der hver eneklt klasse er så uavhengig av hverandre som mulig.
+	Når det er tett kobling så er klassene avhengig av hverandre og det gjør det er komplisert å endre koden.
+
+5c)	TSV-fil er en filtype som seperer verdiene i en datafil ved hjelp av tab. TSV står for "Tab Separated Values". Hvis man skrive tab inn i filen,
+	så vil ma få en ekstra verdi i filen. 
+
+5d)	En positiv test er en test man lager for å se om koden faktisk gjør den er tenkt til å gjøre. Er en positiv test i denne oppgaven (3d) om man ser bort fra 2b og 3c,
+	Som begge også er positive tester.
+	
+5e)	En negativ test er en test man lager for å se om koden feiler der det er tenkt at den skal feile. Er ingen negative tester i denne oppgaven.

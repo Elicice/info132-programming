@@ -1,0 +1,53 @@
+Oblig 2 info132:
+1a)
+	-søke opp et navn og returnere dette hvis det matcher
+	-Hvis ikke returner "null"
+
+	parameter agentName av typen String
+	-må ta hensyn til case sensitivity?
+	
+	
+	public string getName(String name)
+		this.name=agentName
+	if equals agentName
+		return agentName
+	
+	else return null
+
+	-Mener de egentlig personName, eller agentName. 
+	
+	--------
+	
+
+
+
+1b)
+	Fullføre metoden loadNetwork.
+	-For hver person, legge til peronens venner
+		-addFriend-metoden i Person-klassen
+		-Navn til en persons venner gjennom friends-metoden
+	-Bruke lookUpPerson-metoden for å finne en "agent"
+
+	
+	-Loop, enten for eller for each.
+
+1c)
+	void printFriends()
+	-Skriver ut navnet på hver av personens venner 
+
+	void perintFriendsStream()
+	-Skriver ut navnet på hver av personens venner 
+	-bruk strømmer (lage en samling med hver person og dens venner?)
+
+
+1d)
+	mostConnectedFriend
+	-Tar ikke noen parametre
+	-returnerer et personobjekt
+	-Skal returnere den vennen som selv har flest venner.
+
+	-hvis vi kaller på objektet som representerer Aage, så vil metoden returnerer Dag.
+		-Fordi dag er den vennen til aage med flest venner selv.
+
+	metoden trenger å søke opp en agent. Trenger knytte opp mot agentens venner. Trenger å søke hvor mange venner hver av vennene her.
+	-Bruke strømmer, kanskje også strømmer i strømmer.

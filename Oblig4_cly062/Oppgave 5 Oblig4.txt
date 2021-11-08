@@ -1,0 +1,23 @@
+cly062 		INFO132 	Oblig 4
+
+5) Sentrale begreper:
+
+A)
+public class A extends B.
+Her er A subklassen og B er superklassen. 
+Det vil si at A arver alle flet og metodene i B.
+A utvider B med felt og metoder som er spesifikt for den undertypen av B.
+
+B)
+class A implements B
+Klasse B har metode: public void doSomething()
+
+B er et interface som ikke instansierer egene objekt, dette må instansieres i
+klassene som implementerer interface B.
+
+Når A implementerer interface B så må A implmentere alle metodene i B.
+Utenen om default-metoder som A da arver fra B.
+
+
+
+

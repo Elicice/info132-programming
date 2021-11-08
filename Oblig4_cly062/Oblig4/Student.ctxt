@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Klassen\ Student\ er\ en\ subklasse\ av\ klassen\ Person\ og\ arver\ alle\ felt\ og\ metoder\ i\ Person-klassen.\ \r\n\ Klassen\ har\ ansvar\ for\ brukernavn.\ \r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ 2017.10.11\r\n
+comment1.params=name\ UserName
+comment1.target=Student(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Konstrukt\u00F8r\ for\ Student.\r\n\ Arver\ name\ fra\ Person-klassen\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Overstyrer\ toString-metoden\r\n\ @return\ studentens\ navn\ og\ rolle.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getUserName()
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Message
+comment0.text=\r\n\ Class\ Message\ where\ variables\ and\ objects\ for\ messages\ are\ declared\ and\ created\ and\ where\ the\ message\ is\ printed\r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ 2017.10.23\r\n
+comment1.params=sender\ recipient\ messageBody
+comment1.target=Message(Person,\ Person,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Message\r\n
+comment2.params=
+comment2.target=Person\ getSender()
+comment3.params=
+comment3.target=Person\ getRecipient()
+comment4.params=
+comment4.target=java.lang.String\ getMessageBody()
+comment5.params=
+comment5.target=void\ printMessage()
+comment5.text=\r\n\ Prints\ a\ users\ messages\r\n
+numComments=6

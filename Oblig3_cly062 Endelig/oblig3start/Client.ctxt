@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Client
+comment0.text=\r\n\ Client\ functions\ as\ an\ interface\ between\ a\ user\ and\ the\ network.\ The\ \r\n\ user\ interacts\ with\ the\ client\ by\ typing\ commands.\ The\ user\ can\ send\ messages\ \r\n\ to\ other\ users.\r\n\ \r\n\ @author\ \ \ \ \ Cecilie\ Lyshoel\r\n\ @version\ \ \ \ 2.0\ (2017.10.20.)\r\n
+comment1.params=
+comment1.target=Client()
+comment2.params=
+comment2.target=void\ start()
+comment2.text=\r\n\ Method\ start\ runs\ the\ client-program.\ It\ consists\ of\ two\ main\r\n\ phases\:\ login\ and\ working.\ \r\n\ \r\n\ During\ the\ login-phase\ the\ user\ will\ be\ asked\ to\ identify\ herself.\ \r\n\ The\ username\ given\ must\ match\ an\ existing\ person\ exactly.\ \r\n\ \r\n\ During\ the\ working-phase\ the\ user\ will\ send\ commands\ to\ the\ client.\ \r\n\ The\ client\ can\ send\ messages\ (initiated\ by\ the\ command\ "message"),\ give\ instruction\ for\ how\ to\ use\ the\ program\ (initiated\ by\ the\ command\ "help"),\r\n\ print\ a\ users\ messages\ from\ friends\ (initiated\ by\ the\ command\ "read"\ and\ quit\ (initiated\ by\ the\ command\ "bye").\ \r\n\r\n\ \r\n
+comment3.params=
+comment3.target=void\ printWelcome()
+comment3.text=\r\n\ prints\ welcome\ message\r\n\ \r\n
+comment4.params=
+comment4.target=void\ printGoodbye()
+comment4.text=\r\n\ Prints\ a\ 'good\ bye'\ message\r\n\ \r\n
+comment5.params=user
+comment5.target=void\ printMessages(Person)
+comment5.text=\r\nPrints\ messages\ the\ user\ have\ recived\ from\ friends\r\n\ @Param\ user\ \r\n
+comment6.params=
+comment6.target=void\ printHelp()
+comment6.text=\r\n\ prints\ instructions\ for\ how\ to\ use\ the\ program\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\r\n\ main\ method\ that\ creates\ a\ Client\ object\ and\ calls\ the\ start\ method\r\n
+numComments=8

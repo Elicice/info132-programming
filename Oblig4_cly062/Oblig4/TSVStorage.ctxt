@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TSVStorage
+comment0.text=\r\n\ Klassen\ TSVStorage\ har\ ansvar\ for\ \u00E5\ skrive\ og\ lese\ til\ TSV-filen\ hvor\ data\ lagres.\ \r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ 2017.10.11\r\n
+comment1.params=
+comment1.target=TSVStorage()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TSVReader\r\n
+comment2.params=filename\ columns
+comment2.target=java.util.ArrayList\ readTSVFile(java.lang.String,\ int)
+comment2.text=\r\n\ Statisk\ metode\ som\ leser\ TSV-filen\r\n
+numComments=3

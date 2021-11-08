@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ Abstrakt\ klasse\ Person\ er\ superklasse\ for\ for\ alle\ klasser\ som\ utvider\ Person-klassen.\r\n\ Klassen\ har\ ansvar\ for\ alle\ personobjektene\ og\ koblinger\ mellom\ dem\ (venner).\r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ 2017.10.11\r\n
+comment1.params=name
+comment1.target=Person(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Person.\ When\ the\ object\r\n\ is\ created,\ the\ person's\ list\ of\ connections\ is\ empty.\r\n
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\r\nSammenligner\ to\ objekt(Person)\ for\ \u00E5\ se\ om\ de\ er\ lik\ (oppgave\ 4c)\r\nOverstyrer\ equals-metoden\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Method\ getName\ returns\ the\ person's\ name.\r\n\r\n\ @return\ The\ person's\ name\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getConnections()
+comment4.text=\r\n\ Method\ getFriends\ returns\ an\ ArraList\ of\ Person-objects\ \r\n\ containing\ the\ person's\ conections.\ \r\n\r\n\ @return\ The\ list\ of\ the\ person's\ connections\r\n
+comment5.params=connection
+comment5.target=void\ addConnection(Person)
+comment5.text=\r\n\ Method\ addConnections\ adds\ the\ given\ Person-object\ to\ this\r\n\ person's\ connections\ list.\ \r\n\r\n\ @param\ friend\ A\ new\ connection\ (added\ to\ the\ list\ of\ connections)\r\n
+comment6.params=
+comment6.target=int\ hashCode()
+comment6.text=\r\n\ Returns\ a\ hash\ code\ value\ for\ the\ object.\ (See\ 11.8\ (p.\ 377)\ for\ explanation\ of\ this\r\n\ and\ justification\ for\ why\ we\ do\ not\ discuss\ it\ further.)\r\n\r\n\ @see\ Object\#hashCode()\r\n\ @return\ The\ return\ value\r\n
+numComments=7

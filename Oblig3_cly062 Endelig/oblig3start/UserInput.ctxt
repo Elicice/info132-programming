@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=UserInput
+comment0.text=\r\n\ Class\ UserInput\ reads\ the\ input\ from\ users\r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ version\ 1\ (2017.10.20.)\r\n
+comment1.params=
+comment1.target=UserInput()
+comment1.text=\r\n\ Constructor\ for\ object\ of\ class\ UserInput\r\n
+comment2.params=
+comment2.target=java.lang.String\ getInput()
+comment3.params=prompt
+comment3.target=java.lang.String\ getInput(java.lang.String)
+comment3.text=\r\n\ One\ line\ input\r\n
+comment4.params=prompt
+comment4.target=java.lang.String\ getMultilineInput(java.lang.String)
+comment4.text=\r\n\ Makes\ it\ possible\ to\ write\ more\ than\ one\ line\r\n\ \r\n
+numComments=5

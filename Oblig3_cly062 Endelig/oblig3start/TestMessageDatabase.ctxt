@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TestMessageDatabase
+comment0.text=\r\n\ The\ test\ class\ TestMessageDatabase.\r\n\ Tests\ to\ se\ if\ number\ of\ messages\ increase\ with\ one\ when\ adding\ a\ message.\ \r\n\r\n\ @author\ \ Cecilie\ Lyshoel\r\n\ @version\ 2017.10.23\r\n
+comment1.params=
+comment1.target=TestMessageDatabase()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ TestMessageDatabase\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testReset()
+comment4.text=\r\n\ \r\n\ Deletes\ all\ messages\ and\ test\ if\ database\ is\ empty\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testIncrement()
+comment5.text=\r\n\ \r\n\ Tests\ if\ number\ number\ of\ messages\ increase\ with\ one\ when\ a\ message\ is\ added.\ \r\n
+numComments=6

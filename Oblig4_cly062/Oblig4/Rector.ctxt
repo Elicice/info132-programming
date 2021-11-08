@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Rector
+comment0.text=\r\n\ Klassen\ Rector\ er\ en\ subklasse\ av\ Person-klassen\ og\ arver\ alle\ felt\ og\ metoder\ i\ Person-klassen.\r\n\ Implimenterer\ Administrator\ interface,\ arver\ default-mentoden\ suspend()\ og\ arver\ getName()\ fra\ Person-klassen.\ M\u00E5\ implimentere\ getRole()\ i\ klassen.\r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ 2017.10.11\r\n
+comment1.params=name\ electionPromise
+comment1.target=Rector(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Konstrukt\u00F8r\ for\ klassen\ Rector.\ Arver\ name\ fra\ Personklassen.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Overstyrer\ toString-metoden\r\n\ @return\ rektors\ navn\ og\ rolle.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getElectionPromise()
+comment4.params=
+comment4.target=java.lang.String\ getRole()
+comment5.params=lecturer\ commendation
+comment5.target=void\ commend(Convenor,\ java.lang.String)
+comment5.text=\r\n\ \r\n\ Rektor\ er\ avsender\ og\ convenor\ er\ mottaker.\ \r\n\ Noe\ uklar\ oppgavetekst\ her,\ men\ slik\ jeg\ tolker\ det.\r\n\ @param\ lecturer\r\n\ @param\ commendation\r\n
+numComments=6

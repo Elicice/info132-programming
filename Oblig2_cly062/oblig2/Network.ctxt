@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Network
+comment0.text=\r\n\ Klasse\ Network\ har\ parameter\ Arraylist<Person>\ Persons.\r\n\ \r\n\ Klassen\ har\ en\ metode\ loadNetwork()\ for\ \u00E5\ laste\ opp\ alle\ vennene\ til\ en\ person.\r\n\ Klassen\ har\ en\ metode\ lookupPerson(String\ personName)\ som\ unders\u00F8ker\ om\ navnet\ samsvarer\ med\ et\ objekt\ i\ Arraylisten\ persons\r\n\ \ -metoden\ returnerer\ null\ hvis\ navnet\ ikke\ samsvarer\ eller\ returnerer\ personobjektet\ hvis\ navnet\ samsvarer\r\n\ Klassen\ har\ en\ metode\ friends()\ som\ returnerer\ en\ persons\ venner\r\n\ Klassen\ har\ en\ metode\ printNetwork()\ som\ printer\ ut\ navnene\ til\ alle\ personene\ og\ vennene\ til\ hver\ enklet\ like\ under\ deres\ eget\ navn.\r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ 03.10.2017\r\n
+comment1.params=
+comment1.target=Network()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Network\r\n
+comment2.params=
+comment2.target=void\ loadNetwork()
+comment2.text=\r\n\ Method\ loadNetwork\ loads\ every\ agents'\ list\ of\ friend.\ (1.b)\r\n\ \ @param\ friendName\ navnet\ p\u00E5\ venn\ til\ en\ person\r\n
+comment3.params=personName
+comment3.target=Person\ lookupPerson(java.lang.String)
+comment3.text=\r\n\ Method\ lookupPerson\ searches\ through\ our\ collection\ of\ agents\r\n\ and\ returns\ the\ agent\ which\ has\ the\ same\ name\ as\ the\ given\ parameter.\r\n\ Part\ of\ exercise\ (1.a).\r\n\r\n\ @param\ personName\ The\ name\ of\ the\ agent\ we\ are\ searching\ for\r\n\ @return\ The\ agent\ we\ searched\ for,\ or\ null\ if\ none\ is\ found\r\n\ \r\n
+comment4.params=personName
+comment4.target=java.util.ArrayList\ friends(java.lang.String)
+comment4.text=\r\n\ Method\ friends\ returns\ a\ list\ of\ a\ given\ person's\ friends.\r\n\r\n\ @param\ personName\ A\ name\ of\ the\ person\ whose\ friends\ you\ want\ to\ find\r\n\ @return\ A\ list\ containing\ the\ names\ of\ the\ given\ person's\ friends\r\n
+comment5.params=
+comment5.target=void\ printNetwork()
+comment5.text=\r\n\ Method\ printNetwork\ prints\ the\ network.\ It\ prints\ the\ name\ of\ every\ person\r\n\ where\ each\ name\ is\ immediately\ preceded\ by\ the\ names\ of\ their\ friends.\r\n
+numComments=6

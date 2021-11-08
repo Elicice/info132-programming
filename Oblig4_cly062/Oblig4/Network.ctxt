@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Network
+comment0.text=\r\n\ \ Klassen\ Nettwok\ har\ ansvar\ for\ nettverk\ mellom\ personobjektene.\ \r\n\ \ Det\ er\ mulig\ \u00E5\ laste,\ legge\ til\ og\ sl\u00E5\ opp\ personer\ eller\ koblingeer\ mellom\ personer,\ samt\ skrive\ ut\ nettverket.\ \r\n\ \ Klassen\ har\ en\ statisk\ metode\ med\ en\ singleton\ nettverks-objekt.\r\n\r\n\ @author\ Cecilie\ Lyshoel\r\n\ @version\ 2017.10.11\r\n
+comment1.params=
+comment1.target=Network\ getNetwork()
+comment1.text=\r\n\ Lager\ Nettwork-objektet\ hvis\ det\ ikke\ finnes\ et\ fra\ f\u00F8r\r\n\ @return\ Singleton\ network-objektet\r\n
+comment2.params=
+comment2.target=Network()
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Network\r\n
+comment3.params=
+comment3.target=void\ loadNetwork()
+comment3.text=\r\n\ Laster\ nettverk\ med\ navn\ og\ koblingene\ mellom\ den\r\n
+comment4.params=
+comment4.target=void\ loadNames()
+comment4.text=\r\n\ Metoden\ laster\ navn\ og\ legger\ til\ objekt\ med\ informasjon\ om\ rolle,\ navn\ og\ annen\ info.\r\n\ Legger\ til\ personObject\ i\ HashMap\ people\ med\ navn\ som\ n\u00F8kkel\r\n\ \r\n
+comment5.params=
+comment5.target=void\ loadConnections()
+comment5.text=\r\n\ Metoden\ laster\ opp\ koblingene\ som\ er\ er\ mellom\ personer\r\n
+comment6.params=personName
+comment6.target=Person\ lookupPerson(java.lang.String)
+comment6.text=\r\n\ Metode\ som\ henter\ ut\ en\ person\ basert\ p\u00E5\ navn.\r\n\r\n\ @param\ personName\ Navnet\ p\u00E5\ personen\ vi\ sl\u00E5r\ opp\r\n\ @return\ retunerer\ personen\ vi\ sl\u00E5r\ opp\ eller\ returnerer\ null.\r\n
+comment7.params=
+comment7.target=void\ printNetwork()
+comment7.text=\r\n\ Method\ printNetwork\ prints\ the\ network.\ It\ prints\ the\ name\ of\ every\ person\r\n\ where\ each\ name\ is\ immediately\ preceded\ by\ the\ names\ of\ their\ connections.\r\n
+numComments=8
